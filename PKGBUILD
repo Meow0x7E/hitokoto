@@ -27,10 +27,12 @@ backup=()
 options=()
 install=
 changelog=
-source=("$pkgname.tar.xz")
+source=("hitokoto.zsh")
 noextract=()
-sha256sums=(72c45417ed80e280e9fd4df7d8a27ae7aef0006f83a7bf303356484df4e76529 )
+sha256sums=("623179c3b6af5e96bf649ebe4e090b58357f8b6c05fb3a838b03ac5d4a0ce4c4")
 validpgpkeys=()
+
+packager="Meow0x7E <Meow0x7E@outlook.com>"
 
 package() {
 	mkdir -vp "${pkgdir}/usr/bin"
