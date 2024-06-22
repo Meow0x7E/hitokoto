@@ -3,7 +3,7 @@
 typeset HITOKOTO_BUFFER_DIRECTORY=${HITOKOTO_BUFFER_DIRECTORY:-"${HOME}/.cache"}
 typeset HITOKOTO_BUFFER_FILE=${HITOKOTO_BUFFER_FILE:-"hitokoto.txt"}
 typeset HITOKOTO_BUFFER_PATH="${HITOKOTO_BUFFER_DIRECTORY}/${HITOKOTO_BUFFER_FILE}"
-typeset HITOKOTO_URL='https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d&c=e&c=f&c=g&c=h&c=k&c=l&encode=text&charset=utf-8&min_length=0&max_length=128'
+typeset HITOKOTO_URL=${HITOKOTO_URL:-'https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d&c=e&c=f&c=g&c=h&c=k&c=l&encode=text&charset=utf-8&min_length=0&max_length=128'}
 
 mkdir -p $HITOKOTO_BUFFER_DIRECTORY
 

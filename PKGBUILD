@@ -5,7 +5,7 @@
 
 # Maintainer: Meow0x7E <Meow0x7E@outlook.com>
 pkgname=hitokoto
-pkgver=0.1
+pkgver=0.1.1
 pkgrel=1
 epoch=
 pkgdesc="Get 'hitokoto' from the web and output it to the console (prioritizing the use of cached sentences and updating the next sentence in the background)"
@@ -29,7 +29,7 @@ install=
 changelog=
 source=("$pkgname.tar.xz")
 noextract=()
-sha256sums=("b5ebde60a9b63c8a7ac418a47162ab79d40da9fec42faee57310268203c186a2")
+sha256sums=(72c45417ed80e280e9fd4df7d8a27ae7aef0006f83a7bf303356484df4e76529 )
 validpgpkeys=()
 
 package() {

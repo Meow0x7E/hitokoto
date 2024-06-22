@@ -1,1 +1,6 @@
+pkg/
+src/
+
 hitokoto-*.zst
+hitokoto.tar.xz
+PKGBUILD.bak
